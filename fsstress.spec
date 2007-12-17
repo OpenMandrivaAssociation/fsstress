@@ -10,7 +10,6 @@ Source0: %{name}-%{version}.tar.gz
 License: GPL
 Group: System/Kernel and hardware 
 Url: http://cvs.sourceforge.net/viewcvs.py/ltp/ltp/testcases/kernel/fs/fsstress/
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 
 %description
