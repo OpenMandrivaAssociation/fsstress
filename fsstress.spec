@@ -1,6 +1,6 @@
 %define name fsstress
 %define version 1.0
-%define release %mkrel 3
+%define release %mkrel 5
 
 Summary: A filesystem stressing tool
 Name: %{name}
