@@ -1,6 +1,6 @@
 %define name fsstress
 %define version 1.0
-%define release %mkrel 6
+%define release %mkrel 7
 
 Summary: A filesystem stressing tool
 Name: %{name}
@@ -14,7 +14,8 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 
 %description
-A filesystem stressing tool
+fsstress is a filesystem stressing tool.
+
 
 %prep
 %setup -q
