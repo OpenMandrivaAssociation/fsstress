@@ -7,14 +7,14 @@ Name: %{name}
 Version: %{version}
 Release: %{release}
 Source0: %{name}-%{version}.tar.gz
-License: GPL
+License: GPL v2
 Group: System/Kernel and hardware 
 Url: http://cvs.sourceforge.net/viewcvs.py/ltp/ltp/testcases/kernel/fs/fsstress/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 
 %description
-A filesystem stessing tool
+A filesystem stressing tool
 
 %prep
 %setup -q
