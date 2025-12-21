@@ -13,6 +13,7 @@ Url: https://cvs.sourceforge.net/viewcvs.py/ltp/ltp/testcases/kernel/fs/fsstress
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 
+BuildRequires:	make
 %description
 fsstress is a filesystem stressing tool.
 
